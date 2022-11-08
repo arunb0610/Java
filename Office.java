@@ -2,7 +2,7 @@ package tamilNadu.chennai;
 //Using package keyword
 public class Office //we can access class in another package but the class should be public
 {
-
+public int salary = 25000;
 public void work() //we can access method in another package but the method should be public
 {
     System.out.println("He is Working");

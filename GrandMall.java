@@ -1,6 +1,6 @@
 class GrandMall
 {
-    int TicketPrice = 120 ;
+    int ticketPrice = 120 ;
     void show (String MovieName)
 {
     System.out.println("Showing Movie :" + MovieName);
