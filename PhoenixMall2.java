@@ -3,9 +3,10 @@ class PhoenixMall2
   String MovieName ;//Instance variables 
   int MovieTime ;//Instance variables 
   boolean MovieHit ;//Instance variables 
-  PhoenixMall2 (String MovieName , int MovieTime , boolean MovieHit)
+
+  PhoenixMall2 (String MovieName , int MovieTime , boolean MovieHit)//Using constructor
 {
-  this.MovieName = MovieName;
+  this.MovieName = MovieName;//this indicates  global variable 
   this.MovieTime = MovieTime;
   this.MovieHit = MovieHit;
 }

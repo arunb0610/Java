@@ -7,14 +7,15 @@ cn.power_number();
 }
 void power_number()
 {
+
 int num = 1;
 int num2 = 1;
-while(num<=4)
+while(num<=10)
 {
-int power = num*2;
-System.out.println(power);
+int power = num*num;
+int total = power + num;
+System.out.println(total);
 num = num+1;
-num2=num2+1;
 }
 }
 }
