@@ -30,7 +30,7 @@ freq[i] = count;
 }
 for(int i =0; i<ar.length; i++)
 {
-if(freq[i] > 1)
+if(freq[i] != -1)
 System.out.print(ar[i]+""+freq[i]);
 }
 return ar;
